@@ -179,7 +179,7 @@ df.sample(5)
       <th>4043</th>
       <td>ham</td>
       <td>Yes, my reg is  Ciao!</td>
-    </tr>
+    </tr> 
     <tr>
       <th>1242</th>
       <td>ham</td>
