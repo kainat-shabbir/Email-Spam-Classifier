@@ -146,7 +146,6 @@ df.sample(5)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
