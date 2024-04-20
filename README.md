@@ -302,22 +302,6 @@ df.head(5)
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -360,7 +344,6 @@ df.head(5)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -381,22 +364,6 @@ df.head(5)
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -445,8 +412,6 @@ df.head(5)
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 
@@ -460,23 +425,6 @@ df['num_sentences'] = df['text'].apply(lambda x: len(nltk.sent_tokenize(x)))  # 
 df.head(5)
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -531,7 +479,6 @@ df.head(5)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -543,20 +490,6 @@ df[['num_characters', 'num_words', 'num_sentences']].describe()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -617,8 +550,6 @@ df[['num_characters', 'num_words', 'num_sentences']].describe()
     </tr>
   </tbody>
 </table>
-</div>
-
 
 
 
@@ -628,23 +559,6 @@ df[['num_characters', 'num_words', 'num_sentences']].describe()
 df[df['target'] == 0][['num_characters', 'num_words', 'num_sentences']].describe()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -705,7 +619,6 @@ df[df['target'] == 0][['num_characters', 'num_words', 'num_sentences']].describe
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -716,22 +629,6 @@ df[df['target'] == 1][['num_characters', 'num_words', 'num_sentences']].describe
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -792,7 +689,6 @@ df[df['target'] == 1][['num_characters', 'num_words', 'num_sentences']].describe
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
