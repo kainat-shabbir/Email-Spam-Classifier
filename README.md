@@ -622,7 +622,6 @@ df[df['target'] == 0][['num_characters', 'num_words', 'num_sentences']].describe
 
 
 
-
 ```python
 # for spam
 df[df['target'] == 1][['num_characters', 'num_words', 'num_sentences']].describe()
@@ -710,7 +709,7 @@ sns.histplot(df[df['target']==1]['num_characters'], color='red')
 
 
     
-![png](output_28_1.png)
+![png](images/output_28_1.png)
     
 
 
