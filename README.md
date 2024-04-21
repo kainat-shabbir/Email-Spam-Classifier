@@ -731,7 +731,7 @@ sns.histplot(df[df['target']==1]['num_words'], color='red')
 
 
     
-![png](output_29_1.png)
+![png](images/output_29_1.png)
     
 
 
@@ -750,7 +750,7 @@ sns.pairplot(df, hue="target")
 
 
     
-![png](output_30_1.png)
+![png](images/output_30_1.png)
     
 
 
@@ -770,7 +770,7 @@ sns.heatmap(df.corr(), annot = True)
 
 
     
-![png](output_31_1.png)
+![png](images/output_31_1.png)
     
 
 
@@ -875,7 +875,7 @@ plt.imshow(spam_wc)
 
 
     
-![png](output_40_1.png)
+![png](images/output_40_1.png)
     
 
 
@@ -895,7 +895,7 @@ plt.imshow(ham_wc)
 
 
     
-![png](output_41_1.png)
+![png](images/output_41_1.png)
     
 
 
@@ -930,7 +930,7 @@ plt.show()
 
 
     
-![png](output_44_0.png)
+![png](images/output_44_0.png)
     
 
 
@@ -951,7 +951,7 @@ plt.show()
 
 
     
-![png](output_46_0.png)
+![png](images/output_46_0.png)
     
 
 
@@ -1188,21 +1188,6 @@ performance_df
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1300,7 +1285,7 @@ plt.show()
 
 
     
-![png](output_67_0.png)
+![png](images/output_67_0.png)
     
 
 
